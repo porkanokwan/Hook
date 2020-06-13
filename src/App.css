@@ -27,6 +27,16 @@
 .App-link {
   color: #61dafb;
 }
+.table {
+ grid-column: 1/ 2 span;
+ width: 80%;
+}
+table {
+  border-collapse: collapse;
+}
+table, th, td{
+  border: 1px solid black;
+}
 
 @keyframes App-logo-spin {
   from {
