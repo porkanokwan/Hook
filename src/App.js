@@ -5,6 +5,7 @@ import Todo from './todoClass/todo'
 import {Switch, Route} from 'react-router-dom'
 import {Counter} from './hookCounter/Counter'
 import {TodoList} from './todoHook/TodoList'
+import { TD } from './todoHook/TD';
 function App() {
   return (
     <Switch>
@@ -22,6 +23,9 @@ function App() {
   </Route>
   <Route path="/todo">
     <TodoList />
+  </Route>
+  <Route path="/td">
+    <TD />
   </Route>
     </Switch>
     
